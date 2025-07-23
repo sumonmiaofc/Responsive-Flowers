@@ -27,6 +27,11 @@
 *{
     margin: 0 auto;
     background: rgb(245, 248, 255);
+    max-width: 1440px;
+}
+
+body{
+    max-width: 1140px;
 }
 
 /* Shared CSS Here */
@@ -37,7 +42,7 @@
 /* Header CSS Start Here */
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 90px;
 }
@@ -45,6 +50,8 @@ ul{
     list-style: none;
     display: flex;
     gap: 48px;
+    align-items: center;
+    justify-content: center;
 }
 
 ul li a{
@@ -55,4 +62,32 @@ ul li a{
 
 ul li a:hover{
     color: rgb(37, 36, 50);
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 461px;
+    margin-top: 114px;
+    margin-bottom: 120px;
+}
+
+.hero-title{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 5.5rem;
+}
+.fresh-flowers{
+    color: rgb(233, 90, 8);
+}
+
+.hero-description{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+img{
+    border: 2px dashed rgb(137, 135, 161);
 }
