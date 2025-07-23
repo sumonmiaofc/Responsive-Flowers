@@ -1,0 +1,58 @@
+/* Noto Serif Font Here */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* Inter Font */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+*{
+    margin: 0 auto;
+    background: rgb(245, 248, 255);
+}
+
+/* Shared CSS Here */
+
+
+
+
+/* Header CSS Start Here */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 48px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(137, 135, 161);
+}
+
+ul li a:hover{
+    color: rgb(37, 36, 50);
+}
