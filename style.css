@@ -28,6 +28,7 @@
     margin: 0 auto;
     background: rgb(245, 248, 255);
     max-width: 1440px;
+    box-sizing: border-box;
 }
 
 body{
@@ -78,7 +79,10 @@ ul li a:hover{
     font-weight: 700;
     line-height: 5.5rem;
 }
-.fresh-flowers{
+.fresh{
+    color: rgb(233, 90, 8);
+}
+.flowers{
     color: rgb(233, 90, 8);
 }
 
@@ -87,7 +91,53 @@ ul li a:hover{
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
 }
+/* Our Plants CSS Start Here */
 
-img{
-    border: 2px dashed rgb(137, 135, 161);
+.our-plants-title{
+    font-size: 3.1rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+/* Responsive Media Query CSS Here */
+
+@media screen and (max-width:776px) {
+
+    /* Header Css Here */
+
+    .navbar ul li{
+        display: none;
+    }
+
+
+
+
+
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+
+    .hero-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 5.5rem;
+}
+
+    .hero-img{
+        max-width: 100%;
+    }
+    .hero-description{
+        font-size: 14px;
+    }
+
+    .hero-content{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    
 }
