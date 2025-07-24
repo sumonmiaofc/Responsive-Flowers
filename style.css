@@ -57,7 +57,7 @@ button{
     align-items: center;
     height: 90px;
 }
-ul{
+.nav-item{
     list-style: none;
     display: flex;
     gap: 48px;
@@ -65,13 +65,13 @@ ul{
     justify-content: center;
 }
 
-ul li a{
+.nav-item li a{
     text-decoration: none;
     font-weight: 700;
     color: rgb(137, 135, 161);
 }
 
-ul li a:hover{
+.nav-item li a:hover{
     color: rgb(37, 36, 50);
 }
 
@@ -147,6 +147,44 @@ ul li a:hover{
     text-align: center;
     margin-bottom: 20px;
 }
+
+/* Trusted CSS Start Here */
+
+.trusted-img{
+    max-width: 100%;
+    height: 100%;
+    
+}
+
+.trusted{
+    display: flex;
+    gap: 60px;
+    height: 500px;
+    margin-top: 210px;
+    max-width: 1140;
+}
+
+.truted-title{
+    font-size: 3.1rem;
+    font-weight: 700;
+    line-height: 68px;
+    margin-bottom: 20px;
+}
+.trusted-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+}
+.trusted-desc li{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
 
 
 
