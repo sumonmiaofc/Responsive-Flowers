@@ -37,7 +37,17 @@ body{
 
 /* Shared CSS Here */
 
-
+button{
+    
+    background: rgb(233, 90, 8);
+    padding: 20px 80px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
 
 
 /* Header CSS Start Here */
@@ -93,10 +103,63 @@ ul li a:hover{
 }
 /* Our Plants CSS Start Here */
 
+.our-plants{
+    margin-bottom: 50px;
+}
+
+
+.our-plants-content{
+    text-align: center;
+    margin-bottom: 49px;
+}
+
 .our-plants-title{
     font-size: 3.1rem;
     font-weight: 700;
 }
+
+.our{
+    color: rgb(233, 90, 8);
+}
+
+.our-plants-desc{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 888px;
+}
+
+.our-plants-card{
+    display: flex;
+    gap: 20px; 
+}
+
+.card-title{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.card-price{
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -107,15 +170,16 @@ ul li a:hover{
 
 @media screen and (max-width:776px) {
 
+    *{
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+
     /* Header Css Here */
 
     .navbar ul li{
         display: none;
     }
-
-
-
-
 
     .hero-section{
         flex-direction: column-reverse;
@@ -138,6 +202,19 @@ ul li a:hover{
         margin-left: 16px;
         margin-right: 16px;
     }
+
+
+    /* Our Plants Responsive Here */
+
+    .our-plants-title{
+        font-size: ;
+    }
+
+    .our-plants-card{
+        flex-direction: 50% 50%;
+        flex-wrap: wrap;
+    }
+
 
     
 }
